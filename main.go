@@ -4,7 +4,7 @@ Copyright © 2023 NAME HERE <EMAIL ADDRESS>
 */
 package main
 
-import "github.com/Unintellectual/Random-Password-Generator/cmd"
+import "github.com/Unintellectual/PasswordGen/cmd"
 
 func main() {
 	cmd.Execute()
