@@ -3,6 +3,7 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 	"math/rand"
+	"os"
 )
 
 var generateCmd = &cobra.Command{
@@ -46,3 +47,4 @@ func GeneratePassword(cmd *cobra.Command, args []string)  {
 			password[i] = charSet[rand.Intn(len(charSet))]
 		}
 }
+
